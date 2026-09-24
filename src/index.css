@@ -1,0 +1,47 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* body{
+    color: #f3f4ee;
+    background-color: #101a16;
+    background-image: 
+        linear-gradient(to right, #2b3a33 1px, transparent 1px), 
+        linear-gradient(to bottom, #2b3a33 1px, transparent 1px);
+    background-size: 26px 26px;
+    background-attachment: fixed;
+} */
+
+/* ChatGPT */
+
+body {
+    /* google font */
+    font-family: "Bricolage Grotesque", sans-serif;
+    /* Grid BG */
+    color: #101a16; 
+    background-color: #f3f4ee;
+
+    background-image:
+        linear-gradient(to right, #2b3a332b 1px, transparent 1px),
+        linear-gradient(to bottom, #2b3a332b 1px, transparent 1px);
+
+    background-size: 26px 26px;
+    background-attachment: fixed;
+}
+
+/* Checker box */
+
+/* body {
+    color: #f3f4ee;
+    background-color: #101a16;
+
+    background-image:
+        linear-gradient(45deg, #2b3a33 25%, transparent 25%),
+        linear-gradient(-45deg, #2b3a33 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, #2b3a33 75%),
+        linear-gradient(-45deg, transparent 75%, #2b3a33 75%);
+
+    background-size: 52px 52px;
+    background-position: 0 0, 0 26px, 26px -26px, -26px 0px;
+
+    background-attachment: fixed;
+} */
